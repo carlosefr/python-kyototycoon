@@ -1,18 +1,20 @@
 ABOUT
 -----
-This is a native Python client library for the Kyoto Tycoon server,
-supporting both Python 2 and 3. It includes significant performance
-improvements and bug fixes over the (now seemingly unmaintained)
-original library by Toru Maesaka and Stephen Hamer.
+This is a full-featured Python client library for the Kyoto Tycoon server,
+supporting both Python 2 and 3. It includes significant improvements over
+the original library by Toru Maesaka and Stephen Hamer, but also introduces
+some differences in API behavior.
+
+Since the development of Kyoto Tycoon by its original authors seems to have
+halted around 2012, we're also maintaining an updated and ready-to-go fork
+of it here:
+
+   https://github.com/sapo/kyoto
 
 For more information on Kyoto Tycoon server, please refer to:
 
-   http://fallabs.com/kyototycoon/
+   http://sapo.github.io/kyoto/kyototycoon/doc/
 
-Along with this library we're also maintaining an updated and
-ready-to-go fork of Kyoto Tycoon here:
-
-   https://github.com/sapo/kyoto
 
 FEATURES
 --------
