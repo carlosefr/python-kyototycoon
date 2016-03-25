@@ -19,5 +19,5 @@ setup(
     license='BSD',
     keywords='Kyoto Tycoon, Kyoto Cabinet',
     packages=['kyototycoon'],
-    url='https://github.com/sapo/python-kyototycoon',
+    url='https://github.com/alticelabs/python-kyototycoon-ng',
 )
