@@ -94,7 +94,7 @@ class KyotoSlave(object):
             entry = _decode_log_entry(self._read(log_size))
 
             if entry['sid'] == self.sid:  # ...this must never happen!
-                raise KyotoTycoonException('bad log entry [sid=%d]' % sid)
+                raise KyotoTycoonException('bad log entry [sid=%d]' % self.sid)
 
             yield entry
 
