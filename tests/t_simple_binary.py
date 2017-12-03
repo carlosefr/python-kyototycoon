@@ -20,6 +20,10 @@ class UnitTest(unittest.TestCase):
         self.kt_handle.open(port=11978)
         self.LARGE_KEY_LEN = 8000
 
+    def tearDown(self):
+        self.kt_handle.close()
+        self.kt_handle_http.close()
+
     def test_set(self):
         self.assertTrue(self.kt_handle_http.clear())
 
