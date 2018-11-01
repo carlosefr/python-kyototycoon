@@ -9,11 +9,11 @@ Since the development of Kyoto Tycoon by its original authors seems to have
 halted around 2012, we're also maintaining an updated and ready-to-go fork
 of it here:
 
-   https://github.com/alticelabs/kyoto
+   https://github.com/carlosefr/kyoto
 
 For more information on Kyoto Tycoon server, please refer to:
 
-   http://alticelabs.github.io/kyoto/kyototycoon/doc/
+   http://carlosefr.github.io/kyoto/kyototycoon/doc/
 
 
 FEATURES

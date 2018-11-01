@@ -4,3 +4,4 @@ clean:
 	rm -rf build/
 	rm -rf tests/__pycache__
 	rm -rf kyototycoon/__pycache__
+	rm -rf *.egg-info
